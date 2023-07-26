@@ -9,5 +9,5 @@ COPY jenkins.war /jenkins.war
 ENTRYPOINT ["java", "-jar", "/jenkins.war"]
 
 # Optional: Provide default CMD arguments to Jenkins (if needed)
-# CMD ["--option1", "--option2"]
+
 
